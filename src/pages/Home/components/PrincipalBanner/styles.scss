@@ -1,0 +1,30 @@
+@import '../../../../assets/styles/abstracts/variables.scss';
+
+.App {
+  &__ContainerBanner {
+    margin-top: 8rem;
+    height: 80vh;
+    background-image: linear-gradient(
+        to right bottom,
+        rgba($google-blue, 0.75),
+        rgba($google-blue-dark, 0.75)
+      ),
+      url(../../../../assets/img/banners/developers.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 65vh, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 65vh, 0 100%);
+
+    &--Message {
+      padding-top: 20%;
+      color: $white;
+      font-size: 42px;
+      text-align: right;
+      font-weight: 400;
+      padding-right: 8%;
+      text-shadow: 0px 5px 8px $black;
+      letter-spacing: 0.8px;
+    }
+  }
+}
