@@ -1,0 +1,50 @@
+@import '../../../../assets/styles/abstracts/variables.scss';
+
+.Objetives {
+  padding: 3rem 12rem;
+  background-color: #d2f6c5;
+
+  h1 {
+    color: $google-blue;
+    margin-bottom: 2rem;
+    letter-spacing: 0.8px;
+    font-size: 26px;
+    font-weight: 800;
+
+    span {
+      font-weight: 500;
+    }
+  }
+
+  div {
+    font-size: 20px;
+    letter-spacing: 0.8px;
+    line-height: 28px;
+    color: $google-blue-dark;
+    text-align: left;
+    font-weight: bold;
+    text-align: center;
+
+    .list-group-item {
+      background-color: transparent;
+
+      .icon-custom {
+        margin: 24px;
+      }
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .Objetives {
+    padding: 3rem 4rem;
+  }
+
+  h1 {
+    font-size: 20px !important;
+  }
+
+  div {
+    font-size: 16px !important;
+  }
+}

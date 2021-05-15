@@ -1,0 +1,27 @@
+@import '../../../../assets/styles/abstracts/variables.scss';
+
+.Statistics {
+  &__item {
+    span {
+      color: $google-blue;
+      font-size: 42px;
+      font-weight: 800;
+    }
+
+    h3 {
+      color: $google-blue-dark;
+      font-size: 18px;
+    }
+
+    @media (max-width: 900px) {
+      span {
+        font-size: 26px;
+      }
+
+      h3 {
+        color: $google-blue-dark;
+        font-size: 16px;
+      }
+    }
+  }
+}

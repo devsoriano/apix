@@ -1,0 +1,49 @@
+@import '../../../../assets/styles/abstracts/variables.scss';
+
+.Services {
+  text-align: center;
+  &--banner {
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    background-image: linear-gradient(
+        to right bottom,
+        rgba($google-blue, 0.75),
+        rgba($google-blue, 0.75)
+      ),
+      url(../../../../assets/img/banners/servers.jpg);
+    margin-top: 8rem;
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &--Title {
+    color: $white;
+    font-size: 38px;
+    font-weight: 800;
+    text-shadow: 0px 5px 8px $black;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+  }
+
+  &--Subtitle {
+    color: $google-green-light;
+    font-size: 28px;
+    font-weight: 300;
+    text-shadow: 0px 5px 8px $black;
+    letter-spacing: 0.8px;
+  }
+
+  @media (max-width: 900px) {
+    &--Title {
+      font-size: 20px !important;
+    }
+
+    &--Subtitle {
+      font-size: 16px !important;
+    }
+  }
+}

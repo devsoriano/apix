@@ -1,0 +1,52 @@
+@import '../../../../assets/styles/abstracts/variables.scss';
+
+.Courses {
+  padding: 3rem 8rem;
+  background-color: #f9f6f7;
+
+  h1 {
+    color: $google-blue-dark;
+    margin-bottom: 4rem;
+    letter-spacing: 0.8px;
+    font-size: 26px;
+    font-weight: 800;
+  }
+
+  .col {
+    margin-bottom: 1.6rem;
+  }
+
+  .card-title {
+    color: $google-blue-dark;
+    letter-spacing: 0.8px;
+    font-weight: 400;
+    font-size: 22px;
+  }
+
+  .card-text {
+    color: $google-blue;
+    letter-spacing: 0.8px;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 18px;
+  }
+
+  a {
+    background-color: $google-blue-dark;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 900px) {
+  .Courses {
+    padding: 3rem 2rem;
+  }
+
+  .card-title {
+    font-size: 18px !important;
+  }
+
+  .card-text {
+    font-size: 16px !important;
+  }
+}

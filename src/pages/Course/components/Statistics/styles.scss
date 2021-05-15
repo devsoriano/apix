@@ -1,0 +1,30 @@
+@import '../../../../assets/styles/abstracts/variables.scss';
+
+.StatisticsCourse {
+  background-color: $google-blue-dark;
+
+  &__item {
+    span {
+      color: $google-green-light;
+      font-size: 42px;
+      font-weight: 800;
+    }
+
+    h3 {
+      color: $google-yellow;
+      font-size: 18px;
+      font-weight: bolder;
+      letter-spacing: 0.8px;
+    }
+
+    @media (max-width: 900px) {
+      span {
+        font-size: 26px;
+      }
+
+      h3 {
+        font-size: 16px;
+      }
+    }
+  }
+}

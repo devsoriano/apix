@@ -1,0 +1,49 @@
+@import '../../../../assets/styles/abstracts/variables.scss';
+
+.WhatDoWeDo {
+  padding: 3rem 12rem;
+  background-color: $google-blue-dark;
+
+  h1 {
+    color: $google-green-light;
+    margin-bottom: 2rem;
+    letter-spacing: 0.8px;
+    font-size: 26px;
+    font-weight: 800;
+  }
+
+  &__item {
+    margin-bottom: 18px;
+
+    span {
+      color: $google-green-light;
+      font-size: 26px;
+      font-weight: 800;
+    }
+
+    h3 {
+      color: $google-yellow;
+      font-size: 18px;
+    }
+
+    @media (max-width: 900px) {
+      span {
+        font-size: 18px;
+      }
+
+      h3 {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .WhatDoWeDo {
+    padding: 3rem 4rem;
+  }
+
+  h1 {
+    font-size: 20px !important;
+  }
+}

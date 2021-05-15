@@ -11,7 +11,37 @@ html {
 }
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+}
+
+@import './assets/styles/abstracts/variables.scss';
+
+.green {
+  color: $google-green;
+}
+
+.grey {
+  color: grey;
+}
+
+.blue {
+  color: $google-blue;
+}
+
+.paragraph {
+  margin-bottom: 18px;
+}
+
+.container-fluid-max {
+  max-width: 1440px;
+}
+
+.cover {
+  background: no-repeat center/cover;
 }

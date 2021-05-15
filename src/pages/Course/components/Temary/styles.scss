@@ -1,0 +1,18 @@
+@import '../../../../assets/styles/abstracts/variables.scss';
+
+.Temary {
+  padding: 3rem 26rem;
+  color: $google-blue-dark;
+  margin-top: 18px;
+  margin-top: 8rem;
+
+  h1 {
+    margin-bottom: 14px;
+  }
+}
+
+@media (max-width: 900px) {
+  .Temary {
+    padding: 3rem 4rem;
+  }
+}

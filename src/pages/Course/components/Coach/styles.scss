@@ -1,0 +1,49 @@
+@import '../../../../assets/styles/abstracts/variables.scss';
+
+.DetailCourse {
+  &--Coach {
+    padding: 3rem 12rem;
+    background-color: #ffe268;
+
+    .card {
+      border: 0px;
+      background-color: #ffe268;
+
+      .col-center {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+
+        .photo-profile {
+          height: auto;
+          width: 105px;
+          border-radius: 50%;
+        }
+      }
+
+      .description {
+        color: $google-blue-dark;
+      }
+
+      .card-title {
+        color: $google-blue-dark;
+        letter-spacing: 0.8px;
+        font-weight: 600;
+        font-size: 18px;
+      }
+
+      .list-group-item {
+        border: 0px;
+        font-size: 16px;
+        background-color: #ffe268;
+        color: $google-blue;
+      }
+    }
+  }
+
+  @media (max-width: 900px) {
+    &--Coach {
+      padding: 3rem 4rem;
+    }
+  }
+}

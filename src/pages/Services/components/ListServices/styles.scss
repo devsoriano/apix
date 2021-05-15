@@ -1,0 +1,41 @@
+@import '../../../../assets/styles/abstracts/variables.scss';
+
+.ListServices {
+  padding: 3rem 12rem;
+  background-color: #faf3f3;
+
+  h1 {
+    color: #02475e;
+    margin-bottom: 2rem;
+    letter-spacing: 0.8px;
+    font-size: 26px;
+    font-weight: 800;
+  }
+
+  .list-services {
+    text-align: initial;
+    color: #02475e;
+    font-size: 22px;
+    letter-spacing: 0.8px;
+    margin-top: 40px;
+
+    ul {
+      list-style-type: decimal;
+
+      li {
+        padding-left: 16px;
+        margin: 16px;
+      }
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .ListServices {
+    padding: 3rem 4rem;
+  }
+
+  h1 {
+    font-size: 20px !important;
+  }
+}

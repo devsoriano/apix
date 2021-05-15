@@ -1,5 +1,5 @@
 import React from 'react';
-import { useTranslation } from 'react-i18next';
+import { Trans, useTranslation } from 'react-i18next';
 import './styles.scss';
 
 export const About = () => {
@@ -8,9 +8,16 @@ export const About = () => {
   const T_ROOT = 'about';
 
   return (
-    <section className="App__About">
-      <h1>{t(`${T_ROOT}.title`)}</h1>
-      <div>{t(`${T_ROOT}.description`)}</div>
+    <section className="About">
+      <h1>
+        <Trans i18nKey={t(`${T_ROOT}.title`)} components={{ Span: <span /> }} />
+      </h1>
+      <div className="About--Description">
+        <Trans
+          i18nKey={t(`${T_ROOT}.description`)}
+          components={{ Divisor: <div /> }}
+        />
+      </div>
     </section>
   );
 };
