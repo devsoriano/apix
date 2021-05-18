@@ -1,28 +1,24 @@
 @import '../../../../assets/styles/abstracts/variables.scss';
 
-.ListRequirements {
-  padding: 3rem 12rem;
+.Info {
+  padding: 3rem 26rem;
+  color: $google-blue-dark;
+  margin-top: 18px;
   text-align: center;
-  background-color: $google-blue-light;
 
   h1 {
-    color: white;
+    color: $google-blue-dark;
     margin-bottom: 2rem;
     letter-spacing: 0.8px;
     font-size: 20px;
     font-weight: 800;
   }
 
-  .listItemsRequirements {
-    text-align: initial;
-    color: white;
-    font-size: 16px;
-    letter-spacing: 0.8px;
-    margin-top: 40px;
+  .InfoItems {
+    text-align: left;
 
     ul {
       list-style-type: decimal;
-
       li {
         padding-left: 16px;
         margin: 16px;
@@ -32,11 +28,7 @@
 }
 
 @media (max-width: 900px) {
-  .ListRequirements {
+  .Info {
     padding: 3rem 4rem;
-  }
-
-  h1 {
-    font-size: 20px !important;
   }
 }

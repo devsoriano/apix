@@ -1,0 +1,85 @@
+@import '../../../../../assets/styles/abstracts/variables.scss';
+
+.Extra {
+  padding: 3rem 12rem;
+  text-align: center;
+  background-color: #f9f6f7;
+  text-align: left;
+
+  h1 {
+    font-weight: bold;
+    color: $google-blue;
+    margin: 20px 0;
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 16px;
+    margin-bottom: 2rem;
+    color: $google-blue-dark;
+  }
+}
+
+.Weeks {
+  padding: 3rem 12rem;
+  text-align: center;
+  background-color: $google-blue-dark;
+  text-align: left;
+  color: $white;
+
+  h1 {
+    font-weight: bold;
+    font-size: 20px;
+    border-bottom: 6px solid $google-yellow;
+    width: fit-content;
+  }
+
+  p {
+    margin: 20px 0;
+    font-size: 16px;
+    margin-bottom: 2rem;
+  }
+
+  .icon-custom {
+    text-align: center;
+  }
+}
+
+.Medals {
+  padding: 3rem 12rem;
+  text-align: center;
+  background-color: #f9f6f7;
+  text-align: left;
+  color: $google-blue-dark;
+
+  h1 {
+    font-weight: bold;
+    font-size: 20px;
+    border-bottom: 6px solid $google-yellow;
+    width: fit-content;
+  }
+
+  p {
+    margin: 20px 0;
+    font-size: 16px;
+    margin-bottom: 2rem;
+  }
+
+  .icon-second-custom {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 900px) {
+  .Medals,
+  .Weeks,
+  .Extra {
+    padding: 3rem 4rem;
+
+    h1 {
+      font-size: 20px;
+    }
+  }
+}
